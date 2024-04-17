@@ -20,7 +20,7 @@ dnf dnf-automatic && dnf builddep kernel-headers -y
 cd ~
 
 # Download updated driver (replace URL with your actual driver source)
-wget https://raw.githubusercontent.com/Giuliano69/uvc_driver-for-Quanta-HD-User-Facing-0x0408-0x4035-/main/uvc_driver.c
+wget https://raw.githubusercontent.com/takshakmudgal/Camera_Module/main/uvc_driver.c
 
 # Compile and install (Fedora specific commands)
 dkms autoinstall  # This will build and install the module
